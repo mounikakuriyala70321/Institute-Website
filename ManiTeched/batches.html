@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+              background: linear-gradient(to right, #d617b683, #1575959a,#9f079a51);
+              font-family: Arial, Helvetica, sans-serif;
+        }
+        .image-container{
+            margin-top: 20px;
+            justify-content: center;
+            display: flex;
+            gap: 40px;
+            flex-direction: column;
+        }
+        .head{
+            display: flex;
+            flex-direction: column;
+            margin: 40PX 40px 0PX 40PX;
+        }
+        .batch1, .batch2{
+              justify-content: center;
+              display: flex;
+              gap: 20px;
+              width: 100%;
+              height: 100%;              
+              box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+              padding: 10px;
+              background: rgba(0, 0, 0, 0.1);
+        }
+
+        .student{
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 20px;
+            background: rgba( #177bde, #3cabd7b8, #0033ff45);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .student:hover{
+            background: rgba(176, 171, 185, 0.352);
+            transform: translateY(-10px);
+            box-shadow: 5px 5px 10px 5px grey;
+        }
+        .student > img{
+               width: 100px;
+               height: 100px;
+               align-self: center;
+               border-radius: 50%; 
+               margin-bottom: 10px;
+        }
+        .student center {
+            display: block;
+            margin-top: 10px;
+        }
+        @media (max-width=700px) {
+            .head{
+                flex: 1 1 calc(20%-30px);
+            }
+            
+        }
+       
+    </style>
+</head>
+<body>
+    <p style="text-align: center; font-size: 50px; color: blue; box-shadow: 5px 5px 10px 5px grey; border-radius: 5px;">Life of Mani Teched Institute from day one with students</p>
+    <div class="image-container">
+        <div class="head">
+        <P style=" flex-direction: columnS; color: rgba(14, 12, 12, 0.932); font-size: 30px; text-align: center;">First Batch</P>
+        <div class="batch1">
+            
+            <div class="student">
+                <img src="Anil.jpeg" alt="anil">
+                <center>Name: C.Anil <br>
+                        course: B.com(CA) <br>
+                        Year of passed out: 2024
+                </center>
+            </div>
+            <div class="student">
+                <img src="deeskhitha.jpeg" alt="deeskhitha">
+                <center>Name: B. deeskhitha <br>
+                        course: B.Tech(ECE) <br>
+                        Year of passed out:2023</center>
+            </div>
+        </div>
+        </div>
+        <div class="head">
+            <P style=" flex-direction: columnS; color: rgb(13, 13, 13); font-size: 30px; text-align: center;">Second Batch</P>
+            <div class="batch2">                
+                <div class="student">
+                    <img src="siva sankar.jpeg" alt="siva">
+                    <center>Name: Siva Sankar <br>
+                            course: B.com(CA) <br>
+                            Year of passed out: 2024
+                    </center>
+                </div>
+                <div class="student">
+                    <img src="gangadhar.jpeg" alt="gangadhar">
+                    <center>Name: Gangadhar <br>
+                            course: B.Tech(ECE) <br>
+                            Year of passed out:2023 <br>
+                            Experience: 3 years <br>
+                            Company: IBM </center>
+                </div>
+                <div class="student">
+                    <img src="shaik Jasmin.jpeg" alt="Jasmin">
+                    <center>Name: S haik Jasmin <br>
+                            course: BZC <br>
+                            Year of passed out: 2024
+                    </center>
+                </div>
+                <div class="student">
+                    <img src="Praveen.jpeg" alt="Praveen">
+                    <center>Name: Praveen <br>
+                            course: B.com(CA) <br>
+                            Year of passed out: 2024
+                    </center>
+                </div>
+                <div class="student">
+                    <img src="Thummala chaitanya.jpeg" alt="chaitanya">
+                    <center>Name: Thummala Chaitanya <br>
+                            course: B.B.A <br>
+                            Year of passed out: 2024
+                    </center>
+                </div>
+                <div class="student">
+                    <img src="girl.jpg" alt="chandhini">
+                    <center>Name: chandhini <br>
+                            course: B.com <br>
+                            Year of passed out: 2024
+                    </center>
+                </div>
+            </div>
+        </div>
+        <div class="head">
+            <P style=" flex-direction: columnS; color: rgb(12, 11, 12); font-size: 30px; text-align: center;">Third Batch</P>
+            <div class="batch2">                
+                <div class="student">
+                    <img src="Shaik Heera.jpeg" alt="heera">
+                    <center>Name: Shaik Heera <br>
+                            course: Bzc <br>
+                            Year of passed out: 2024
+                    </center>
+                </div>
+                <div class="student">
+                    <img src="Avula Bhargavi.jpeg" alt="Avula Bhargavi">
+                    <center>Name: Avula Bhargavi <br>
+                            course: BZC <br>
+                            Year of passed out:2024<br>
+                            </center>
+                </div>
+                <div class="student">
+                    <img src="Sameena.jpeg" alt="Sameena">
+                    <center>Name: Sameena <br>
+                            course: BZC <br>
+                            Year of passed out: 2024
+                    </center>
+                </div>
+                <div class="student">
+                    <img src="Kavitha.jpeg" alt="Kavitha">
+                    <center>Name: Kavitha <br>
+                            course: BBA <br>
+                            Year of passed out: 2024
+                    </center>
+                </div>
+                <div class="student">
+                    <img src="Purusotham.jpeg" alt="Purusotham">
+                    <center>Name: Purusotham <br>
+                            course: B.Tech(CSE) <br>
+                            Year of passed out: 2023
+                    </center>
+                </div>
+                <div class="student">
+                    <img src="Shail gulshan bee.jpeg" alt="Shail gulshan beea">
+                    <center>Name: Shail gulshan bee<br>
+                            course: BZC <br>
+                            Year of passed out: 2024
+                    </center>
+                </div>
+            </div>
+        </div>
+        <div class="head">
+            <P style=" flex-direction: columnS; color: rgb(15, 15, 16); font-size: 30px; text-align: center;">Fourth Batch</P>
+            <div class="batch1">
+                
+                <div class="student">
+                    <img src="dileep.jpeg" alt="Dileep">
+                    <center>Name: B. Dileep Kumar<br>
+                            course: B.Tech(ECE) <br>
+                            Year of passed out: 2022
+                    </center>
+                </div>
+                <div class="student">
+                    <img src="mounika.jpeg" alt="Mounika">
+                    <center>Name: K. Mounika <br>
+                            course: B.Tech(CSE) <br>
+                            Year of passed out:2024</center>
+                </div>
+                <div class="student">
+                    <img src="tharun.jpeg" alt="Tharun">
+                    <center>Name: Tharun Kumar<br>
+                            course: B.Tech(IT) <br>
+                            Year of passed out:2024</center>
+                </div>
+                <div class="student">
+                    <img src="nagaraja.jpeg" alt="nagaraju">
+                    <center>Name: Nagaraja <br>
+                            course: B.Tech(IT) <br>
+                            Year of passed out:2024</center>
+                </div>
+                <div class="student">
+                    <img src="girl.jpg" alt="Anusha">
+                    <center>Name: Anusha <br>
+                            course: B.Tech(IT) <br>
+                            Year of passed out:2024</center>
+                </div>
+            </div>
+        </div>
+        <div class="head">
+            <P style=" flex-direction: columnS; color: rgb(17, 17, 17); font-size: 30px; text-align: center;">Fifth Batch</P>
+            <div class="batch1">
+                
+                <div class="student">
+                    <img src="B. Mahesh.jpeg" alt="B. Mahesh">
+                    <center>Name: B. Mahesh <br>
+                            course: B.Tech(EEE) <br>
+                            Year of passed out: 2023
+                    </center>
+                </div>
+                <div class="student">
+                    <img src="anjali.jpeg" alt="Anjali">
+                    <center>Name: Anjali <br>
+                            course: B.Tech(ECE) <br>
+                            Year of passed out:2024</center>
+                </div>
+                <div class="student">
+                    <img src="Seetha Nandini.jpeg" alt="Seetha Nandini ">
+                    <center>Name: Seetha Nandini <br>
+                            course: B.Tech(ECE) <br>
+                            Year of passed out:2024</center>
+                </div>
+                <div class="student">
+                    <img src="Nisha.jpeg" alt="Nisha ">
+                    <center>Name: Nisha <br>
+                            course: BE(CSE) <br>
+                            Year of passed out:2024</center>
+                </div>
+                <div class="student">
+                    <img src="Ramya.jpeg" alt="Ramya ">
+                    <center>Name: Ramya <br>
+                            course: BE(CSE)<br>
+                            Year of passed out:2024</center>
+                </div>
+            </div>
+        </div>
+        <div class="head">
+            <P style=" flex-direction: columnS; color: rgb(20, 19, 20); font-size: 30px; text-align: center;">Sixth Batch</P>
+            <div class="batch1">
+                
+                <div class="student">
+                    <img src="Bellaganti Varshitha.jpeg" alt="B.Varshitha">
+                    <center>Name: B.Varshitha <br>
+                            course: B.Tech(CSE) <br>
+                            Year of passed out: 2026
+                    </center>
+                </div>
+                <div class="student">
+                    <img src="Sure Vinod Kumar.jpeg" alt="vinod">
+                    <center>Name: Sure Vinod Kumar <br>
+                            course: B.Tech(ECE) <br>
+                            Year of passed out:2024</center>
+                </div>
+                <div class="student">
+                    <img src="girl.jpg" alt="sruthi">
+                    <center>Name: Sruthi <br>
+                            course: B.Tech(IT) <br>
+                            Year of passed out:2024</center>
+                </div>
+                <div class="student">
+                    <img src="girl.jpg" alt="Varshitha">
+                    <center>Name: E. Varshitha <br>
+                            course: B.Tech(IT) <br>
+                            Year of passed out:2024</center>
+                </div>                
+            </div>
+        </div>
+        <div class="head">
+            <P style=" flex-direction: columnS; color: rgb(9, 9, 9); font-size: 30px; text-align: center;">Seventh Batch</P>
+            <div class="batch1">
+                
+                <div class="student">
+                    <img src="Dodhala Lahari.jpeg" alt="Dodhala Lahari">
+                    <center>Name: Dodhala Lahari <br>
+                            course: B.Tech(CSE) <br>
+                            Year of passed out: 2026
+                    </center>
+                </div>
+                <div class="student">
+                    <img src="girl.jpg" alt="Bhagya">
+                    <center>Name: Bhagya <br>
+                            course: B.Tech(ECE) <br>
+                            Year of passed out:2024</center>
+                </div>
+                <div class="student">
+                    <img src="Gayathri.jpeg" alt="Gayathri">
+                    <center>Name: Gayathri <br>
+                            course: B.Tech(ECE) <br>
+                            Year of passed out:2026</center>
+                </div>
+                <div class="student">
+                    <img src="J.Harika.jpeg" alt="Harika">
+                    <center>Name: J.Harika <br>
+                            course: B.Tech(ECE) <br>
+                            Year of passed out:2026</center>
+                </div>
+                <div class="student">
+                    <img src="girl.jpg" alt="Niharika">
+                    <center>Name: Niharika <br>
+                            course: B.Tech(IT) <br>
+                            Year of passed out:2024</center>
+                </div>
+                <div class="student">
+                    <img src="M.Radhika.jpeg" alt="Radhika">
+                    <center>Name: M.Radhika <br>
+                            course: B.Tech <br>
+                            Year of passed out:2026</center>
+                </div>
+                <div class="student">
+                    <img src="girl.jpg" alt="Sreelatha">
+                    <center>Name: Sreelatha <br>
+                            course: B.Tech(IT) <br>
+                            Year of passed out:2024</center>
+                </div>
+                <div class="student">
+                    <img src="A. Vedavathi.jpeg" alt="vedha">
+                    <center>Name: A. Vedavathi <br>
+                            course: B.Tech(IT) <br>
+                            Year of passed out:2024</center>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
